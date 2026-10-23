@@ -12,4 +12,4 @@ Small apps that solve small annoyances, built with Claude as my coding partner:
 
 ## How I work
 
-I decide what to build and how it should behave, check every change and test it carefully. Claude writes much of the code, like a very fast junior developer who needs very clear instructions.
+I come up with the idea, decide how it should work and test the result. Claude does most of the typing.
