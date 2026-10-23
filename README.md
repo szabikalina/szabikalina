@@ -4,19 +4,12 @@ Project manager from Prague. I got tired of only *writing* tickets, so now I bui
 
 ## What I'm building
 
-Native iOS apps in Xcode, with Claude Code as my pair programmer:
+Small apps that solve small annoyances, built with Claude as my coding partner:
 
-- **A privacy-first coin collection tracker.** All data stays on the phone, locked behind Face ID or PIN, with encrypted backups. No servers, no accounts, no "we value your privacy" popups. The coins are mock for now; my real ones live in a safe, not in git. [App Store link when live]
-- **A small offline roster-to-calendar tool**, because PDFs are not a calendar.
+- **A coin collection app** for iPhone. Everything stays on your phone, locked with Face ID or a PIN, with encrypted backups. No accounts, no servers.
+- **A roster app** that turns a PDF roster into calendar entries, because PDFs are not a calendar.
+- **A browser extension** that reads details from a page and turns them into a clean, ready-to-send message, so nobody has to copy and paste the same fields all day.
 
-- **Structured Message, a Safari and Chrome extension.** It reads details from the page you're on or from pasted text, then turns them into a clean, standardised message ready to drop into Microsoft Teams, with bold formatting intact. Because copy-pasting the same five fields into chat forty times a day is how people end up writing browser extensions. Built in Xcode with the Safari Web Extension framework.
+## How I work
 
-## How I build them
-
-No secrets here: I write the requirements, make the design calls, review every pull request and read the test results. Claude Code writes much of the code. Think of it as a very fast junior developer who never sleeps and occasionally needs very specific instructions.
-
-The first app has 137 unit tests, because a PM who ships without tests gets a very awkward retro.
-
-## Get in touch
-
-[LinkedIn](https://www.linkedin.com/in/szabolcs-kalina/).
+I decide what to build and how it should behave, check every change and test it carefully. Claude writes much of the code, like a very fast junior developer who needs very clear instructions.
